@@ -17,7 +17,7 @@ Online comments harassment detection. Model trained from 44k comments taken from
 
 
 
-### Resutls:
+### ResulTs:
 Model | Accuracy | Precision | Recall | F1-Score 
 --- | --- | --- | --- |--- 
 ANN | 69.81%      | 70.22%     | 69.81%    | 69.72% 
