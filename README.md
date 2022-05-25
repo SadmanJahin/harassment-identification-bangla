@@ -2,7 +2,7 @@
 Online comments harassment detection. Model trained from 44k comments taken from facebook.
 
 
-#### Dataset: Bangla Online Comments Dataset(29 January 2021)
+### Dataset: Bangla Online Comments Dataset(29 January 2021)
      Total Data: 44001
      Classes: 
      Troll
@@ -11,15 +11,21 @@ Online comments harassment detection. Model trained from 44k comments taken from
      Sexual
      Threat
      
+     URL: https://data.mendeley.com/datasets/9xjx8twk8p/1
+     
 ![alt text](https://i.ibb.co/hm0BpcT/index1.png)
 
+
+
+### Resutls:
 Model | Accuracy | Precision | Recall | F1-Score 
 --- | --- | --- | --- |--- 
-ANN | 301 | 283 | 290 | 286 
-1D CNN | 7292   | 7335   | 7292   | 7302 
-LSTM | 7292   | 7335   | 7292   | 7302 
-BERT |80.13%| 80.02%| 80.13%|79.99% 
+ANN | 69.81%      | 70.22%     | 69.81%    | 69.72% 
+1D CNN | 72.92%   | 73.35%     | 72.92%    | 73.02% 
+LSTM | 75.09%     | 75.05%     | 75.09%    | 74.97% 
+BERT |80.13%      | 80.02%     | 80.13%    |79.99% 
 
-#### Resutls:
+
+
 ![alt text](https://i.ibb.co/r5wkBxb/index2.png)
 
